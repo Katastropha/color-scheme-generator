@@ -1,0 +1,79 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Foldit:wght@300;400;600;800&family=Inter:wght@200;400;500;800&family=Poppins:wght@200;400;600;800&family=Roboto:wght@100;400;500;700;900&family=Smythe&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="application">
+      <!--  -->
+      <nav class="navigation">
+        <div class="nav-block">
+          <input class="seed-color" type="color" />
+          <select class="color-scheme" name="trigger" id="trigger">
+            <option
+              class="option"
+              style="font-family: Verdana"
+              value="monochrome"
+            >
+              Monochrome
+            </option>
+            <option
+              class="option"
+              style="font-family: Verdana"
+              value="monochrome-dark"
+            >
+              Monochrome-dark
+            </option>
+            <option
+              class="option"
+              style="font-family: Verdana"
+              value="monochrome-light"
+            >
+              Monochrome-light
+            </option>
+            <option
+              class="option"
+              style="font-family: Verdana"
+              value="analogic"
+            >
+              Analogic
+            </option>
+            <option
+              class="option"
+              style="font-family: Verdana"
+              value="complement"
+            >
+              Complement
+            </option>
+            <option
+              class="option"
+              style="font-family: Verdana"
+              value="analogic-complement"
+            >
+              Analogic-complement
+            </option>
+            <option class="option" style="font-family: Verdana" value="triad">
+              Triad
+            </option>
+          </select>
+
+          <button class="btn-get-color-scheme">Get color scheme</button>
+        </div>
+      </nav>
+
+      <!--   -->
+      <div class="colors"></div>
+    </div>
+
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
