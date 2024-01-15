@@ -1,6 +1,6 @@
-# c2an6PTB
+# Color scheme generator
 
-![screenshot](image.png)
+![color-generator-screenshot](image.png)
 Quick start:
 
 ```
