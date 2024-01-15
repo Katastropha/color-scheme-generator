@@ -115,6 +115,7 @@ body {
 .hex:hover,
 .hex:active {
   font-size: 16px;
+  transition: font-size 500ms;
 }
 
 h1 {
